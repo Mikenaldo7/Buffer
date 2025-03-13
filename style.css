@@ -55,3 +55,35 @@ body{
     border-radius: 32px;
     margin-left: 12px;
 }
+
+.hero-section{
+    background-color: #f2f2e8;
+    height: 100vh;
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 120px;
+    position: absolute;
+    inset: 0;
+    border-radius: 40px;
+    display: block;
+}
+
+.hero-header{
+   font-size: 64px;
+   width: 800px;
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 80px;
+}
+
+.hero-para{
+    font-size: 18px;
+    width: 800px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+ }
