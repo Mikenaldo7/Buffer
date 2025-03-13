@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('"C:\Users\HP\Documents\Buffer\raleway"');
+}
+
+body{
+    font-family: 'customFont', 'raleway';
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 24px;
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    list-style: none;
+}
+
+.menu-list li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+}
+
+.btn-outline {
+    background: none;
+    color: black;
+    width: 100px;
+    height: 48px;
+    border: 1px solid #000000;
+    border-radius: 32px;
+}
+
+.btn-filled {
+    background: rgb(176, 236, 156);
+    color: black;
+    width: 160px;
+    height: 48px;
+    border: 1px solid #000000;
+    border-radius: 32px;
+    margin-left: 12px;
+}
